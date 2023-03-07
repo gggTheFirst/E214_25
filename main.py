@@ -28,7 +28,6 @@ def main_menu():
     
     highscore_font = pygame.font.SysFont("comicsans", 15)
     highscores = highscore_info.get_highscores()
-    highscores = [['User 20','User 12','User 53','User 14','User 65' ],[4450650, 1320020, 322000, 752000, 15000]]
     highscore_info.save_highscores(highscores)
 
     for i in range(5):
